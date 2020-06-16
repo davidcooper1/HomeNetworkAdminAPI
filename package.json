@@ -1,0 +1,25 @@
+{
+  "name": "homenetworkadminapi",
+  "version": "1.0.0",
+  "description": "Backend API for Home Network Admin.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcooper1/HomeNetworkAdminAPI.git"
+  },
+  "author": "David Cooper",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/davidcooper1/HomeNetworkAdminAPI/issues"
+  },
+  "homepage": "https://github.com/davidcooper1/HomeNetworkAdminAPI#readme",
+  "dependencies": {
+    "pcap": "^3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}

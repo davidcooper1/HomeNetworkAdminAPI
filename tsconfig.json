@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "dist",
+        "moduleResolution": "Node"
+    },
+    "include": [
+        "src/**/*", "index.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
