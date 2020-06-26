@@ -2,9 +2,10 @@
   "name": "homenetworkadminapi",
   "version": "1.0.0",
   "description": "Backend API for Home Network Admin.",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "tsc && node ."
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "test": "npm run tsc && node ."
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,14 @@
   },
   "homepage": "https://github.com/davidcooper1/HomeNetworkAdminAPI#readme",
   "dependencies": {
-    "pcap": "^3.1.0"
+    "express": "^4.17.1",
+    "netgear": "^4.1.0",
+    "pcap": "^3.1.0",
+    "rxjs": "^6.5.5",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
+    "@types/socket.io": "^2.1.8",
     "typescript": "^3.9.5"
   }
 }
